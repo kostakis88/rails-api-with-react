@@ -24,6 +24,11 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_model_serializers (0.10.9)
+      actionpack (>= 4.1, < 6)
+      activemodel (>= 4.1, < 6)
+      case_transform (>= 0.2)
+      jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
     activejob (5.2.3)
       activesupport (= 5.2.3)
       globalid (>= 0.3.6)
@@ -61,6 +66,8 @@ GEM
       regexp_parser (~> 1.2)
       uglifier
       xpath (~> 3.2)
+    case_transform (0.2)
+      activesupport
     childprocess (1.0.1)
       rake (< 13.0)
     chromedriver-helper (2.1.1)
@@ -86,6 +93,7 @@ GEM
     io-like (0.3.0)
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
+    jsonapi-renderer (0.2.0)
     loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -105,6 +113,7 @@ GEM
     public_suffix (3.0.3)
     puma (3.12.1)
     rack (2.0.7)
+    rack-cors (1.0.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.3)
@@ -186,6 +195,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  active_model_serializers
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
@@ -194,6 +204,7 @@ DEPENDENCIES
   duktape
   jbuilder (~> 2.5)
   puma (~> 3.11)
+  rack-cors
   rails (~> 5.2.3)
   sass-rails (~> 5.0)
   selenium-webdriver
