@@ -1,5 +1,10 @@
 {
   "name": "rails-api-with-react",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kostakis88/rails-api-with-react.git",
+  "author": "kostakis88 <kostasdallas2010@hotmail.com>",
+  "license": "MIT"
 }
